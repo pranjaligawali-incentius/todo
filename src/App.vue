@@ -1,19 +1,20 @@
 <script setup>
 
-import StudentView from "./views/StudentView.vue";
+import TODOView from "./views/TODOView.vue";
 
-
+import Add from "./components/Add.vue";
+import Delete from "./components/Delete.vue";
 </script>
 
 <template>
   <header>
    <div>
-    <h1>Student Manager app</h1>
-    <StudentView/>
+    <h1>TODO app</h1>
+    <TODOView/>
+    
    </div>
   </header>
-
-
+    <Add />
 </template>
 
 <style scoped>

@@ -1,5 +1,5 @@
 import {createRouter ,createWebhistory } from 'vue-router'
-import HomeView from '../views/StudentView.vue'
+import TODOView from '../views/TODOView.vue'
 const routes=[{
     path:'/',
     name:'home',
