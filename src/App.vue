@@ -3,7 +3,7 @@
 import TODOView from "./views/TODOView.vue";
 
 import Add from "./components/Add.vue";
-import Delete from "./components/Delete.vue";
+
 </script>
 
 <template>
